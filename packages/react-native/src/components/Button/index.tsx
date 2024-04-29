@@ -1,5 +1,4 @@
-import React from "react";
-import { Pressable, Button as RnButton, StyleSheet, Text } from "react-native";
+import { Pressable, StyleSheet } from "react-native";
 import { ButtonPropsI } from "./types";
 
 export default function Button({ ...props }: ButtonPropsI) {
@@ -12,5 +11,6 @@ export const styles = StyleSheet.create({
     padding: 10,
     elevation: 2,
     backgroundColor: "blue",
+    color: "white",
   },
 });

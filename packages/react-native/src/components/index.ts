@@ -1,3 +1,6 @@
-import Button from "./Button";
+//EXPORT ALL THE FILES IN THIS FOLDER TO BUILD THE PACKAGE
 
-export { Button };
+import Button from "./Button";
+import DatePicker from "./DatePicker";
+
+export { Button, DatePicker };
