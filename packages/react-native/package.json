@@ -10,6 +10,9 @@
     "build": "tsup src/index.ts --dts --format cjs,esm --minify",
     "yalc:publish": "npm run build && npm i && yalc publish --push"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "author": "Kayo Elias",
   "license": "MIT",
@@ -19,6 +22,6 @@
     "tsup": "^8.0.2"
   },
   "peerDependencies": {
-    "react-native": "^0.74.0"
+    "react-native": "^0.73.0"
   }
 }
